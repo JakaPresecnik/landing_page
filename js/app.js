@@ -70,3 +70,7 @@ function highlight (e) {
     backToTop.style.display = 'none';
   }
 }
+// added code from https://github.com/cferdinandi/smooth-scroll to get a scroll effect
+const scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 800
+});
